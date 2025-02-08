@@ -1,0 +1,40 @@
+working with JSON Data :
+Rest API : 
+Package: http calls
+request lib
+urllib3
+httplib2
+
+json = json.load
+serialization and deser:
+file, database,socket
+
+-----------------------------
+
+binery serilization : bits and byte (0,1)
+security : the file is not readable 
+size of file is redusced by 20-30 %
+trasferriing the data on the network syatem gives performence 
+easy to use 
+
+import pickle 
+
+pickilling is process of serilization python objects (lis,dist,tupple, coustem type ) by converting into  its 
+and byte 
+flatting marshelling , serialization ....
+
+x: only python objects can be pickled and other lanaguages can not read pickled data 
+
+
+pickle.pickleException unpickled Exception 
+
+
+==========================================================
+
+database world:
+
+2 ways:
+1 sql way 
+2 ORM way  object relation MApping (Table-class of python )
+
+sqlalchemy - orm tool - save, upaate  delete, fetch
